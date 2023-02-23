@@ -18,15 +18,15 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#work">Work</a>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
               </li>
             </ul>
@@ -34,21 +34,21 @@
         </div>
       </nav>
           <section id="home" class="home container">
-            <div class="row d-flex align-items-center">
-                <div class="col-8">
+            <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+                <div class="col-12 col-md-8">
                     <h3 class="fw-semibold">Hi! I am</h3>
                     <h1 class="fw-bold">I Made Agus Rianta</h1>
                     <p>I am physics instrumentation based in indonesia</p>
                     <a class="btn button" href="pdf/CV Made.pdf" download>CV</a>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
                     <img src="images/potrait.png" alt="potrait">
                 </div>
             </div>
-            <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
-                <a class="text-decoration-none text-dark"href="#about">More Info</a>
+            <a href="#about"class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+                <div class="text-dark">More Info</div>
                 <img id="arrow"class="mt-2"src="images/arrow.svg" alt="arrow icon">
-            </div>
+            </a>
           </section>
           <section id="about" class="about container">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio nihil repudiandae reiciendis odit, autem adipisci, possimus ea dolorum, laudantium iste rerum exercitationem totam repellendus suscipit nostrum quisquam! Earum, dolores dolorem, porro autem quidem dignissimos ipsum labore adipisci, quisquam dolorum officia laboriosam consectetur doloremque maiores nisi? Suscipit aspernatur dolorem placeat!</p>
@@ -183,10 +183,10 @@
         </section>
        <section id="work" class="work container">    
        <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-5">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis animi, expedita aperiam consectetur iste iusto nostrum? Voluptatum mollitia tenetur dicta illum voluptas maxime. Eligendi quas laudantium omnis recusandae voluptates exercitationem, blanditiis nobis repellat maxime reprehenderit expedita consequatur quis dolorem maiores obcaecati officiis nisi neque, nesciunt cumque sed, doloremque delectus! Facilis!</p>
         </div>
-        <div class="col work-img">
+        <div class="col-12 col-6 work-img">
             <div id="work-1" class="work-img-item">
             <img src="images/work-1.png" alt="work 1" >
             </div>
@@ -202,39 +202,39 @@
     </section>
     <section id="contact" class="contact container">
         <div class="row d-flex align-item-center gap-5">
-            <div class="col">
+            <div class="col-12 col-lg-6">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, dolorem alias aspernatur sapiente quibusdam libero consequatur quae nobis quos cupiditate! Mollitia cumque ad iusto harum assumenda fugiat? Amet iste itaque, dicta, corrupti eos aspernatur vel laboriosam quaerat facilis distinctio fugiat ea consequatur, necessitatibus ut vitae consectetur tempora consequuntur harum hic!</p>
             <div class="row">
                 <div class="col d-flex align-item-center">
-                    <img src="images/Instagram.svg" alt="instagram icon">
-                    <p>@imadeagus03</p>
+                    <img class="w-25" src="images/Instagram.svg" alt="instagram icon">
+                    <p class="mb-0 ms-2">@imadeagus03</p>
                 </div>
                 <div class="col d-flex align-item-center">
-                    <img src="images/icons8-linkedin-circled.svg" alt="linkedin icon">
-                    <p>@imadeagusrianta</p>
+                    <img class="w-25" src="images/icons8-linkedin-circled.svg" alt="linkedin icon">
+                    <p class="mb-0 ms-2">@imadeagusrianta</p>
                 </div>
             </div>
         </div>
-                <div class="col">
+            <div class="col-12 col-lg-5">
                     <form class="contact-form" onsubmit="onFormSubmit(event)">
                         <div class="mb-3">
                           <label for="inp_email" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="inp_email" placeholder="example@gmail.com" >
+                          <input type="email" class="form-control" id="inp_email" placeholder="example@email.com" required>
                         </div>
                         <div class="mb-3">
                           <label for="inp_subject" class="form-label">Subject</label>
-                          <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject">
+                          <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required>
                         </div>
                         <div class="mb-3">
                             <label for="inp_message" class="form-label">Message</label>
-                            <input type="text" class="form-control" id="inp_message" placeholder="Your Message">
+                            <input type="text" class="form-control" id="inp_message" placeholder="Your Message" required>
                           </div>
                         
                         <div class="d-flex justify-content-center mt-5">
                             <button type="submit" class="btn button">Submit</button>
                         </div>
                       </form>
-                </div>
+        </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
