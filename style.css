@@ -90,20 +90,20 @@ justify-content: space-between;
     grid-area: work-1;
 }
 #work-1:hover::after{
-    content: 'Web Project';
+    content: 'Freelance';
 }
 
 #work-2{
     grid-area: work-2;
 }
 #work-2:hover::after{
-    content: 'Web Project';
+    content: 'Freelance';
 }
 #work-3{
     grid-area: work-3;
 }
 #work-3:hover::after{
-    content: 'Web Project';
+    content: 'Freelance';
 }
 .contact{
     padding-bottom: 128px;
