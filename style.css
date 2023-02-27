@@ -55,22 +55,22 @@ justify-content: space-between;
 .about-exp-item-detail{
     display: none;
 }
-.sertifikasi::before{
+.sertifikat::before{
     content: 'Sertifikasi';
 }
-.sertifikasi-img{
+.sertifikat-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "work-1 work-2" "work-3 work-3";
     gap: 16px;
 }
-.sertifikasi-img img{
+.sertifikat-img img{
     width: 100%;
 }
-.sertifikasi-img-item{
+.sertifikat-img-item{
     position: relative;
 }
-.sertifikasi-img-item:hover::after{
+.sertifikat-img-item:hover::after{
     content: '';
     width: 100%;
     height: 100%;
