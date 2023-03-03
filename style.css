@@ -61,7 +61,7 @@ justify-content: space-between;
 .sertifikat-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "work-1 work-2" "work-3 work-3";
+    grid-template-areas: "img sertifikat-1 img sertifikat-2" "img sertifikat-3 img sertifikat-3";
     gap: 16px;
 }
 .sertifikat-img img{
