@@ -86,23 +86,23 @@ justify-content: space-between;
     font-size: 24px;
 
 }
-#img sertifikat-1{
+#sertifikat-1{
     grid-area: img sertifikat-1;
 }
-#img sertifikat-1:hover::after{
+#sertifikat-1:hover::after{
     content: 'Sertifikat';
 }
 
-#img sertifikat-2{
+#sertifikat-2{
     grid-area: img sertifikat-2;
 }
-#img sertifikat-2:hover::after{
+#sertifikat-2:hover::after{
     content: 'Sertifikat';
 }
-#img sertifikat-3{
+#sertifikat-3{
     grid-area: img sertifikat-3;
 }
-#img sertifikat-3:hover::after{
+#sertifikat-3:hover::after{
     content: 'Sertifikat';
 }
 .contact{
