@@ -105,6 +105,12 @@ justify-content: space-between;
 #sertifikat-3:hover::after{
     content: 'Sertifikat';
 }
+#sertifikat-4{
+    grid-area: img sertifikat-3;
+}
+#sertifikat-4:hover::after{
+    content: 'Sertifikat';
+}
 .contact{
     padding-bottom: 128px;
 }
